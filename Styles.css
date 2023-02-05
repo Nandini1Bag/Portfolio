@@ -1,19 +1,21 @@
 
 * {
-	margin: 0;
-	padding: 0;
+	/* margin: 0;
+	padding: 0; */
 }
 body {
 	font-family: 'Baloo 2', cursive;
    background: #4e54c8; 
    position: absolute;
-     top: 6px; 
+     /* top: 6px; 
     left: 6px; 
      bottom: 6px;
-     right: 0; 
+     right: 0;  */
+     margin: 0;
    overflow-y: scroll;
    overflow-x: hidden;
 }
+
 
 #welcome-section{
     /* background-color: rgb(44, 45, 46);  */
@@ -84,11 +86,13 @@ body {
    }
 
    #navbar{
-    top:0px;
-    position: fixed;
-    background-color: red;
-    width:100%;
-    height:70px; 
+    display: flex;
+    align-items: center;
+   
+    /* background: linear-gradient(132deg, #FC415A, #591BC5, #905590);  */   
+    height: 50px;
+    padding: 30px 25px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1); 
    }
    /* .nav-link{
     color: #f2f2f2;
@@ -131,10 +135,8 @@ body {
 
 
 .area{
-    /* background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  */
     background: linear-gradient(132deg, #FC415A, #591BC5, #905590); 
-    
+  
 }
 
 .circles{
@@ -155,7 +157,6 @@ body {
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
-    
 }
 
 .circles li:nth-child(1){
@@ -251,9 +252,6 @@ body {
     }
 
 }
-
-
-
 
 
 .banner-text {
@@ -354,7 +352,7 @@ body {
 .logo{
     width: 55px;
     height: 50px;
-    margin: 40px 63px;
+     margin: 40px 63px; 
     float: left;
     border-radius: 100%;
     border: 2px solid #6427cd;
@@ -518,6 +516,36 @@ img {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+
+
+.Experiments-section{
+  padding: 2px;
+   background-color: #F1FAEE;
+}
+.Experiments-details{
+   display: flex; 
+   justify-content: space-around;
+   padding: 2px;
+   margin: 20px;
+}
+.detailsflex{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ background-color: rgba(255, 255, 255, 0.089);/* glassmorphism */
+}
+
+.Experiments-details div p{
+   font-size: 12px;
+   text-align: center; 
+}
+
+.Square-img{
+  width: 160px;
+  height: 150px;
+  border-radius: 20px;
 }
 
 .Contact_section{
