@@ -469,12 +469,9 @@ img {
     background-color: rgba(0, 0, 0, 0.829);
 }
 .social-menu ul li:nth-child(2) a:hover{
-    background-color: #E4405F;
-}
-.social-menu ul li:nth-child(3) a:hover{
     background-color: #0077b5;
 }
-.social-menu ul li:nth-child(4) a:hover{
+.social-menu ul li:nth-child(3) a:hover{
     background-color: #000;
 }
 
@@ -535,8 +532,12 @@ img {
  justify-content: space-between;
  align-items: center;
  background-color: rgba(255, 255, 255, 0.089);/* glassmorphism */
+ /* transition: .6s; */
 }
-
+/* .detailsflex:hover{
+  transform: translate(0, -10%);
+  background-color: green;
+} */
 .Experiments-details div p{
    font-size: 12px;
    text-align: center; 
