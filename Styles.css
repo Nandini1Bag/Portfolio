@@ -16,9 +16,16 @@ body {
    overflow-x: hidden;
 }
 
+.bg-image{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center ;
+  position: relative;
+}
 
-#welcome-section{
-    /* background-color: rgb(44, 45, 46);  */
+#welcome-section{ 
+    background-image: url("images/Nini.JPG");
     width:100%; 
     height:100vh;
     text-align: center;
@@ -88,7 +95,7 @@ body {
    #navbar{
     display: flex;
     align-items: center;
-   
+    justify-content: end;
     /* background: linear-gradient(132deg, #FC415A, #591BC5, #905590);  */   
     height: 50px;
     padding: 30px 25px;
