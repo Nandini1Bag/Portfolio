@@ -53,6 +53,13 @@ body {
     text-align:center;
    }
 
+   .skills-container{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2px;
+   }
+
+
   /* ----------------------------
   Portfolio 
   ------------------------------ */
@@ -133,10 +140,44 @@ body {
   flex-wrap: wrap;
 }
 
+.svg {
+  overflow: hidden;
+  width: 15%;
+}
+
+.service-box {
+  background-color: #fff;
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.service-box .service-ico {
+  margin-bottom: 1rem;
+  color: #1e1e1e;
+}
+
+.service-box .s-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+
+@media (min-width: 768px){
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    padding: 1px;
+}}
+
 @media (min-width: 768px){
   .col-md-6 {
       flex: 0 0 auto;
-      width: 50%;
+      width: 48%;
+      padding: 10px;
+      
   }}
 
 @media (min-width: 576px){
